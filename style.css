@@ -3,6 +3,37 @@
     padding: 0;
 }
 
+:root {
+    --beige: #e1c699;
+    --lightbeige: #ffeecb;
+    --darkbeige: #a99066;
+    --green: #005b4c;
+}
+
 body {
     background: whitesmoke;
+}
+
+.container {
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 2% auto;
+}
+
+.visor {
+    width: 100%;
+    height: 70px;
+    background: var(--lightbeige);
+    border-radius: 10px 10px 0 0;
+}
+
+.visor .numbers {
+    color: var(--green);
+    font-size: 60px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 10px;
+    text-align: right;
 }
